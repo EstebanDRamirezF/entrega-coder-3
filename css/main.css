@@ -251,7 +251,7 @@ section.hero svg path {
     height: 100%;
   }
   /*medai queries aboutus */
-  main {
+  .main-aboutus {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
