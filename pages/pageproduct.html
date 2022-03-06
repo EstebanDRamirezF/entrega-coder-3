@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/main.css">
     <title>Document</title>
 </head>
@@ -22,8 +23,8 @@
 
                 <ul>
                     <li><a href="../index.html">Home</a></li>
-                    <li><a href="/pages/aboutus.html">Acerca de nosotros</a></li>
-                    <li><a href="/pages/contact.html">Contact</a></li>
+                    <li><a href="">Sneakers</a></li>
+                    <li><a href="">Contact</a></li>
                 </ul>    
 
             </nav>
@@ -31,55 +32,47 @@
             <svg class="menu menu-products"  viewBox="0 0 48 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M24 32H0V26.6667H24V32ZM48 18.6667H0V13.3333H48V18.6667ZM48 5.33333H24V0H48V5.33333Z" fill="white"/>
             </svg>
-            
+        
         </header>
         <hr>
         <main>
-            <h1 class="tittle-products">Products</h1>
-            <div class="subheader">
-                <ul class="categories">
-                    <li class="page">
-                        <a href="">Sneakers</a>
-                    </li>
-                    <li class="page">
-                        <a href="">Hoodies</a>
-                    </li>
-                    <li class="page">
-                        <a href="">Tees</a>
-                    </li>
+            <h1 class="h1-product">Shoe 1</h1>
+            <h4 class="h4-product"> <span>$</span> 65.00</h4>
+            <div class="product-container">
+                <section class="product-image">
+                    <div class="default-image">
+                        <img src="../img/shoe5.jpg" alt="">
 
-                </ul>
+                    </div>
+                    <ul class="product-thumbnails">
+                        <li>
+                            <a href=""><img src="../img/thumbnail1.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="../img/thumbnail2.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="../img/thumbnail3.jpg" alt=""></a>
+                        </li>
+                    </ul>
+
+                </section>
+                <section class="product-description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptates perspiciatis deleniti ullam excepturi modi! Eligendi, est at deleniti veritatis, sed ab natus eos, illo quisquam nihil ad voluptate alias!
+                    Ipsam necessitatibus magnam, beatae adipisci, placeat earum animi odit doloremque totam voluptatem dolor ea aperiam perferendis facilis? Dolores obcaecati et mollitia optio ipsam illum cumque, quia, delectus, nulla provident excepturi!</p>
+                    <form action="">
+                        <div class="select">
+                            <select name="" id="option">
+                                <option value="1">4M</option>
+                                <option value="2">4.5M</option>
+                                <option value="3">5M</option>
+                                <option value="4">6M</option>
+                            </select>
+                        </div>
+                        <button title="Add to cart">Agregar al carrito</button>
+                    </form>
+                </section>
             </div>
-            <ul class="products-list">
-                <li class="product">
-                    <a href="">
-                        <img class="img-product" src="../img/shoe5.jpg" alt="">
-                        <p>Product 1</p>
-                        <i>$38.00</i>
-                    </a>
-                </li>
-                <li class="product">
-                    <a href="">
-                        <img src="../img/shoe6.jpg" alt="">
-                        <p>Product 2</p>
-                        <i>$38.00</i>
-                    </a>
-                </li>
-                <li class="product">
-                    <a href="">
-                        <img src="../img/shoe7.jpg" alt="">
-                        <p>Product 3</p>
-                        <i>$38.00</i>
-                    </a>
-                </li>
-                <li class="product">
-                    <a href="">
-                        <img src="../img/shoe8.jpg" alt="">
-                        <p>Product 4</p>
-                        <i>$40.00</i>
-                    </a>
-                </li>
-            </ul>
         </main>
         <footer>
             <div class="grid-footer">
@@ -123,11 +116,8 @@
             <p>Todos los derechos reservados</p>
         </footer>
     </div>
-
-
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
 </body>
 </html>

@@ -294,11 +294,39 @@ section.hero{
        
    }
 
+   .img-aboutus{
+       padding: 4em;
+       align-self: center;
+       
+
+       
+   }
+
    /*media queries footer */
+   footer{
+       .grid-footer{
+           display: grid;
+           grid-template-columns: auto auto;
+       }
+   }
+   /*media queries pageproduct.html */
+   
+   .product-container{
+       display: grid;
+       grid-template-columns: auto auto;
+       .product-image{
+           padding: 1em;
+           img{
+               width: 100%;
+           }
+       }
+   }
 
-             
 
 
+   
+
+    
     
 }
 
@@ -476,6 +504,8 @@ iframe{
     }
 }
 
+
+
 .section-aboutus{
     margin: 1.5em;
     text-align: center;
@@ -560,4 +590,72 @@ footer{
 
 footer{
     margin: 1.5em;
+}
+
+/* pageproduct estilos */
+.h1-product{
+    margin: 0;
+    text-align: center;
+}
+.h4-product{
+    text-align: center;
+}
+
+.product-image{
+    img{
+        width: 100%;
+    }
+
+    .product-thumbnails{
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+        
+        
+
+        li{
+            display: inline-block;
+            box-sizing: border-box;
+            width: 30%;
+            padding: 1em;
+            
+           
+            
+        }
+    }
+}
+
+.product-description{
+    form{
+        button{
+                background: none;
+                border: 1px solid grey;
+                border-radius: 0px;
+                color: grey;
+                font-weight: 500;
+                height: 50px;
+                width: 100%;
+                position: relative;
+
+
+        }
+         div.select{
+            border: 1px solid grey;
+            box-sizing: border-box;
+            color: grey;
+            margin-bottom: 1em;
+            position: relative;
+            select{
+                background: none;
+                border: 0px;
+                border-radius: 0px;
+                color: grey;
+                font-weight: 500;
+                height: 50px;
+                width: 100%;
+                position: relative;
+            }
+
+        }
+    }
 }
